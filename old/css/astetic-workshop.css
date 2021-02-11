@@ -1,0 +1,522 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.estetica_banner_1 {
+  padding: 200px 0;
+  background: url(../img/banner_principal.jpg) center center no-repeat;
+  margin: 0 0 0 0;
+  background-size: cover;
+  color: white;
+}
+
+.estetica_banner_2 {
+  background: #e1dfdf;
+  color: #000;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bolder;
+}
+.estetica_banner_2 a {
+  margin: 0 10px;
+  color: #3b4799;
+}
+.estetica_banner_2 p {
+  margin: 0;
+}
+
+.estetica_banner_3 {
+  border: 1px solid #e1dfdf;
+}
+.col-border .row {
+  width: 100%;
+  max-width: 447px;
+  margin: 0 auto;
+}
+.col-border h2 {
+  text-align: center;
+}
+.col-border h4 {
+  text-align: center;
+}
+.col-border a {
+  text-align: center;
+  display: block;
+}
+.estetica_banner_3 .col-border {
+  border-left: 1px solid #e1dfdf;
+}
+.icon_section .icono3 a {
+  text-align: center;
+}
+.icon_section h4 {
+  font-size: 15px;
+  color: #8a8290;
+  font-weight: 300;
+  margin: 0;
+}
+
+.icon_section h3 {
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+
+.estetica_banner_3 h5 {
+  border-bottom: 1px solid #e1dfdf;
+  text-align: center;
+  padding: 25px;
+  font-size: 16px;
+}
+
+.estetica_banner_3 h6 {
+  border-bottom: 1px solid #e1dfdf;
+  text-align: center;
+  color: #8d8d8d;
+  padding: 25px;
+}
+
+.estetica_banner_3 .col-xl-4 {
+  margin: 0;
+  padding: 0;
+}
+.estetica_banner_3 .icon_section {
+  text-align: left;
+}
+.estetica_banner_3 .icon_section h2 {
+  border-bottom: 1px solid #ccc;
+  width: 100px;
+  margin: 30px auto 10px;
+}
+.icon_section h5 {
+  font-size: 16px;
+  border: none;
+}
+
+.icon_section h6 {
+  font-size: 14px;
+}
+
+.icon_section a {
+  color: #36b5a5;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.icon_section_border {
+  border-right: 1px solid #e1dfdf;
+  border-left: 1px solid #e1dfdf;
+}
+
+.icono1 {
+  background: url(../img/icono1.png) no-repeat;
+  padding: 20px 10px 20px 70px;
+  background-size: 35px;
+  background-position: 20px 25px;
+  margin: 0 0 0 20px;
+}
+.icon_section_border {
+  border-right: 1px solid #e1dfdf;
+  border-left: 1px solid #e1dfdf;
+}
+.icono2 {
+  background: url(../img/icono2.png) no-repeat;
+  padding: 20px 10px 20px 70px;
+  background-size: 35px;
+  background-position: 20px 25px;
+}
+.icono3 {
+  background: url(../img/icono3.png) no-repeat;
+  padding: 20px 10px 20px 70px;
+  margin: 0;
+  background-size: 35px;
+  background-position: 20px 25px;
+}
+
+.col-border h5 {
+  border-bottom: 1px solid #e1dfdf;
+}
+.icon_section2 h2 {
+  padding: 5px 124px;
+  font-size: 40px;
+}
+.icon_section2 h4 {
+  padding: 5px 30px;
+  font-size: 16px;
+}
+.icon_section2 a {
+  padding: 15px 100px;
+}
+
+.icon_section_3 h2 {
+  padding: 9px 75px;
+}
+.icon_section_3 h4 {
+  padding: 15px 36px;
+}
+
+.icon_section_4 h2 {
+  padding: 5px 71px;
+}
+.icon_section_4 h4 {
+  padding: 22px 30px;
+  font-size: 18px;
+}
+
+.banner_5 {
+  background: #f2f4ff;
+  padding: 50px 0;
+}
+.banner_5 .bg_banner {
+  background: #fff;
+  padding: 50px 50px;
+  height: 100%;
+}
+.bg_banner h2 {
+  font-size: 26px;
+  padding: 5px 0;
+  font-weight: 500;
+}
+
+.bg_banner h2 span {
+  color: #3a4698;
+  font-weight: 700;
+}
+.content_img img {
+  width: 100%;
+}
+.content_img iframe {
+  width: 100%;
+  height: 400px;
+  margin: 0 0 -7px 0;
+}
+.content_img p {
+  background: #353f89;
+  color: white;
+  padding: 10px 10px;
+  text-align: left;
+  margin: 0 0 -1px 0;
+  font-size: 10px;
+}
+
+.text_2 p {
+  padding: 18px 0 0 0;
+  margin: 0;
+}
+.content_img h6 {
+  background: #353f89;
+  color: white;
+  margin: 0 0 -1px 0px;
+  padding: 5px 15px;
+  font-size: 14px;
+}
+.banner_8 iframe {
+  width: 100%;
+  height: 300px;
+}
+.banner_8 {
+  background: #f2f4ff;
+  padding: 100px 0;
+}
+.btn_md a {
+  padding: 0 0 0 25px;
+}
+.banner_8 a {
+  padding: 15px 20px 15px 20px
+}
+.banner_8 h2 {
+  color: #3b4799;
+  padding: 0 0 0 25px;
+}
+.banner_8 h6 {
+  color:black;
+  padding: 0 0 0 25px;
+}
+.banner_8 p {
+  color: black;
+  padding: 0 0 0 25px;
+}
+.bar_links h3 {
+  background: #353f89;
+  border-radius: 10px;
+  padding: 10px 0;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  margin: 0 0 20px 0;
+}
+.bar_links h3 span {
+  font-weight: 500;
+}
+.bar_links h5 {
+  color: #353f89;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.bar_links ul {
+  margin: 0 0 20px 0;
+  padding: 0;
+  list-style: none;
+}
+.bar_links ul li {
+  margin: 0 0 5px 0;
+  padding: 0;
+  border-top: 1px solid #8a8290;
+  border-right: 1px solid #8a8290;
+  border-bottom: 1px solid #8a8290;
+  border-left: 4px solid #353f89;
+  border-radius: 5px;
+}
+.bar_links ul li a {
+  padding: 5px 10px;
+  display: block;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.bar_links ul li a:hover {
+  background: #dfdfdf;
+}
+.bar_links ul li a .red {
+  color: red;
+}
+.bar_links ul li a .blue {
+  color: blue;
+}
+.banner_9 {
+  background: white;
+  padding: 40px 0;
+}
+.banner_9 h3 {
+  text-align: center;
+  padding: 40px 0 0 0;
+}
+.banner_9 h2 {
+  text-align: center;
+  color: #353f89;
+}
+.banner_10 {
+  background: #353f89;
+  padding: 30px 0 100px 0;
+}
+.banner_10 h4 {
+  padding: 40px 0 0 0;
+  text-align: center;
+  color: #fff;
+}
+.banner_10 h3 {
+  text-align: center;
+  color: #fff;
+}
+.banner_11 {
+  margin: -80px 0 0 0;
+}
+.banner_11 img {
+  width: 100%;
+}
+.banner_11 p {
+  background: #353f89;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.banner_home_11 {
+  background: #f2f2f3;
+}
+.banner_12 iframe {
+  width: 100%;
+  height: 300px;
+}
+.banner_12 {
+  background: #f1f6f9;
+  padding: 100px 0;
+}
+.banner_12 .bg_white {
+  padding: 20px;
+  background: white;
+}
+.banner_12 .bg_blue {
+  padding: 20px;
+  background: #353f89;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+.banner_12 h2 {
+  color: #353f89;
+  text-align: center;
+}
+.banner_12 h2 span {
+  color: black;
+  font-weight: 300;
+}
+.banner_13 {
+  background: #353f89;
+  padding: 100px 0;
+}
+.cont_img {
+  margin: 0 20px;
+}
+.cont_img img {
+  width: 100%;
+  margin: -40px 0 0;
+}
+.cont_img h3 {
+  text-transform: uppercase;
+  background: #f0f0f0;
+  padding: 30px 30px 40px 30px;
+  color: #353f89;
+}
+
+.banner_13 h2 {
+  color: white;
+  text-align: center;
+}
+.banner_13 h6 {
+  color: white;
+  text-align: center;
+  padding: 50px 0 0 0;
+  font-size: 16px;
+}
+.banner_13 h5 {
+  color: white;
+  text-align: center;
+  padding: 25px 0 0 0;
+  font-size: 25px;
+}
+.cont_img h5 {
+  font-size: 16px;
+}
+.banner_14 .cont_img_banner {
+  text-align: center;
+}
+.banner_14 .cont_img_banner img {
+  width: 100%;
+}
+.banner_14 .cont_img_banner h5 {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 20px 0;
+  font-size: 25px;
+  position: relative;
+  margin: -70px 0 0 0;
+  z-index: 2;
+}
+.banner_14 .cont_img_banner h6 {
+  background: #dbdbdb;
+  padding: 10px 0;
+}
+.banner_14 {
+  background: white;
+  padding: 100px 0;
+}
+.banner_14 img {
+  width: 100%;
+  padding: 30px 0 0 0;
+}
+.banner_14 p {
+  font-size: 14px;
+}
+.banner_15 {
+  padding: 100px 0;
+}
+.banner_15 h2 {
+  color: #353f89;
+  text-align: center;
+  padding: 0 0 20px;
+}
+.banner_14 h5 {
+  font-size: 16px;
+  padding: -10px 0 0 0;
+}
+.banner_14 h6 {
+  font-size: 16px;
+}
+.banner_15 img {
+  width: 100%;
+}
+.banner_16 hr {
+  color="green" 
+  size=1 
+  width="150">
+}
+.banner_16 {
+  background: #f4f7fa;
+}
+.banner_16 h2 {
+  color: #353f89;
+  padding: 80px 0 2px 0;
+}
+.banner_16 p {
+  font-size: 18px;
+  padding: 30px 0 0 0;
+}
+.color_fondo {
+  background: #3a4698;
+  padding: 40px 40px;
+}
+.color_fondo img {
+  width: 100%;
+  margin: 0 0 0 -50%;
+}
+.banner_14 ul li a {
+  text-decoration: none;
+  color: #8a8290;
+  padding: 10px 0;
+  display: block;
+  position: relative;
+}
+.banner_14 ul li a i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #dfdfdf;
+}
+.bg_banner_img .contenedor {
+  background: #353f89;
+  padding: 10px;
+  
+}
+.content_img {
+  margin: 0 0 30px;
+}
+.estetica_banner_1 h5 {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.estetica_banner_1 h4 {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.estetica_banner_1 h6 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  font-weight: 400;
+}
+/*Media Query*/
+@media all and (max-width: 1200px) {
+  .icono1,
+  .icono2,
+  .icono3 {
+    padding: 40px 0 0;
+    background-position: top center;
+    margin: 0 0 20px;
+  }
+  .estetica_banner_3 {
+    padding: 50px 0;
+  }
+  .bg_banner_img .contenedor {
+    padding: 20px;
+  }
+  .estetica_banner_3 .icon_section {
+    text-align: center !important;
+  }
+  .color_fondo img {
+    margin: 0;
+  }
+  .color_fondo {
+    margin: 50px 0 0;
+  }
+}

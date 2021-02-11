@@ -1,0 +1,904 @@
+//--PLUGIN NIB--//
+@import 'nib/vendor'
+vendor-preixes = o ms moz webkit official
+@import 'nib/gradients'
+//--VARIABLES--//
+c-azul = #3b4799
+c-azul-claro = #35b4a6
+//--ESTILOS GENERALES--//
+body, html 
+    width 100%
+body 
+    color black 
+    font-family 'Montserrat', sans-serif
+    font-size 14px
+    overflow-x hidden
+h1, h2, h3, h4, h5, h6 
+    font-family 'Montserrat', sans-serif
+    font-weight bold
+.light
+    font-weight 500
+.text-right
+    text-align right 
+.btn_md
+    background c-azul
+    color #fff
+    padding 20px 30px
+    font-weight bold
+    text-transform uppercase
+    text-decoration none
+    border-radius 30px
+    display inline-block
+    border none
+    &:hover
+        color #fff
+a:focus, input:focus, button:focus, button:active
+    outline none
+.body_no_scroll
+    overflow-y hidden
+//--ESTILOS HEADER--//
+header
+    position fixed
+    width 100%
+    top 0
+    left 0
+    z-index 999
+    .ton_header
+        background #fff
+        color c-azul
+        padding 10px 50px
+        text-transform uppercase
+        h6
+            margin 0
+        a  
+            color c-azul
+        .text-right
+            a
+                text-decoration none
+                margin 0 0 0 20px
+    .ton_bottom
+        background c-azul
+        padding 20px 50px
+        #logo
+            max-width 200px
+            width 100%
+        button
+            padding 0
+            display inline-block
+            vertical-align top
+            background none
+            border none
+            color #fff
+            font-size 25px
+            margin 16px 0 0 20px
+        .toogle_menu
+            display none
+    nav
+        margin 20px 0 0
+        width calc(100% - 100px)
+        display inline-block
+        vertical-align top
+        ul
+            margin 0
+            padding 0
+            list-style none
+            li 
+                margin 0 10px
+                padding 0
+                display inline-block
+                position relative
+                a
+                    color #fff
+                    text-transform uppercase
+                    font-weight 500
+                    font-size 16px
+                    text-decoration none
+                    &:hover
+                        color #fff
+            .child_menu
+                margin 0 20px 0 10px
+                &:before
+                    content ""
+                    width 0
+                    height 0
+                    border-left 4px solid transparent
+                    border-right 4px solid transparent
+                    border-top 5px solid #fff
+                    position absolute
+                    top 8px
+                    right -15px
+                &:hover
+                    ul
+                        display block
+                ul
+                    display none
+                    width 300px
+                    background #fff
+                    position absolute
+                    padding  10px 0
+                    li
+                        transition all 0.5s
+                        padding 10px 20px 0
+                        &:hover
+                            background #e5e5e5
+                        a
+                            text-transform capitalize
+                            font-size 14px
+                            color c-azul
+                            p
+                                color #333
+                                font-size 11px
+                                line-height 14px
+//-- ESTILOS MOVILE --//
+.menu_movile
+    width 100%
+    height 100%
+    position fixed
+    top 0
+    left 0
+    background rgba(0,0,0,0.8)
+    z-index 9999
+    display none
+    .sidebar_movile
+        overflow-y auto
+        padding 40px
+        width 350px
+        height 100%
+        position absolute
+        left -500px
+        top 0
+        background #fff
+        transition all 0.5s
+        ul
+            margin 20px 0 0 
+            list-style none
+            padding 0
+            li
+                margin 10px 0
+                a
+                    color c-azul
+                    text-decoration none
+                    text-transform uppercase
+                    font-weight bold
+                ul
+                    margin 0
+                    padding 0 0 0 20px
+                    li
+                        a
+                            text-transform capitalize
+                            color #333
+                            p
+                                display none
+        img
+            width 100%
+    .sidebar_movile_active
+        left 0
+//--ESTILOS BANNER--//
+.conten_video
+    background c-azul
+    border-radius 10px
+    overflow hidden
+    margin 0 0 20px
+    video
+        width 100%
+    h6
+        text-align center
+        font-weight 300
+        color #fff
+        padding 20px 0
+        text-transform uppercase
+.slider
+    width 100%
+    height 100vh
+    margin 0 
+    overflow hidden
+    position relative
+    .cont_slider
+        width 700px
+        margin 300px auto 0
+        text-align center
+        position relative
+        z-index 3
+        h6
+            margin 20px
+            color #fff
+        img
+            width 100%
+        .btn_md
+            margin 20px 0
+        p
+            color #fff
+    .dec
+        width 100%
+        height 100%
+        position absolute
+        top 0
+        left 0
+        background rgba(0,0,0,0.5)
+        z-index 2
+    video
+        position absolute
+        object-fit cover
+        width 100%
+        height 100% 
+        top 0
+        z-index 1
+        left 0
+//--ESTILOS HOME--//
+.banner_home_1
+    background #ebf0f5
+    padding 80px 0
+    h4
+        color #333
+        margin 0 0 30px
+        display block
+        text-transform uppercase
+.banner_home_2
+    img
+        width: 100%;
+    h3
+        margin 80px 0 10px
+    h5
+        font-weight 300
+    h4
+        margin 40px 0 10px
+        color c-azul
+    h6
+        font-weight 300
+        font-style italic
+.banner_home_3 
+    background c-azul
+    padding 50px 0
+    color #fff 
+    img
+        width 80px
+        display inline-block
+        vertical-align top
+        margin 0 10px 0 0
+    .cont_doc
+        width 200px
+        display inline-block
+        vertical-align top
+        margin 20px 0 0 
+    a
+        color #fff
+        text-transform uppercase
+        margin 30px 0 0
+        display block
+.banner_home_4
+    padding 50px 0
+    .course
+        height 500px
+        background-position center center !important
+        background-size cover !important
+        position relative
+        background-repeat no-repeat !important
+        margin 0  0 20px
+        .cont_course
+            position absolute
+            bottom 0
+            left 0
+            width 100%
+            background rgba(255,255,255,0.8)
+            padding 20px
+        a
+            color c-azul
+            text-transform uppercase
+            font-size 16px
+            font-weight bold
+    h3
+        color c-azul
+        text-transform uppercase
+    h6
+        font-weight 500
+.banner_home_5
+    .bn-1
+        text-align right
+        background #00a5b8
+        margin 0
+        padding 0
+        img
+            width 800px
+    .bn-2
+        background #3b4799
+        padding 0 50px
+        h2
+            color #fff
+            font-size 60px
+            margin 30px 0 0 
+            small
+                font-size 40px
+                color c-azul-claro
+                font-style italic
+                font-weight 500
+        h3
+            color #fff
+        ul
+            list-style none
+            margin 0
+            padding 0
+            li
+                color #fff
+                font-size 16px
+        .btn_md
+            background #fff
+            color c-azul
+            padding 10px 30px
+            margin 20px 0 0 
+.banner_home_6
+    padding 100px 50px
+    h2
+        text-transform uppercase
+        color c-azul
+    h6
+        font-weight 500
+    p
+        margin 50px 0 0
+        span
+            font-size 18px 
+            margin 0 10px 
+            font-weight bold
+.banner_home_7
+    padding 0 0 50px
+    h2
+        text-transform uppercase
+        color c-azul
+    .glob
+        width 250px
+        height 250px
+        background red
+        border-radius 100%
+        position relative
+        display inline-block
+        vertical-align top
+        margin-left -20px
+        margin-right -20px
+        h6
+            font-weight bold
+            font-size 16px
+            position absolute
+            width 115px
+            text-align left
+            left 20px
+            right 0
+            margin 0 auto
+            top 84px
+        span
+            display block
+    .glob_1
+        background url("../img/glob-1.png") center center no-repeat 
+        background-size 80%
+        margin-top 100px
+        span
+            color #00ac96
+    .glob_2
+        background url("../img/glob-2.png") center center no-repeat 
+        background-size 80%
+        margin-top 0
+        span
+            color #068e91
+            margin 20px 0 0 0
+    .glob_3
+        background url("../img/glob-3.png") center center no-repeat 
+        background-size 80%
+        margin-top 100px
+        span
+            color #3491bb
+            margin 20px 0 0 0
+    .glob_4
+        background url("../img/glob-4.png") center center no-repeat 
+        background-size 80%
+        margin-top 0
+        span
+            color #4e52a6
+            margin 20px 0 0 0
+    .glob_5
+        background url("../img/glob-5.png") center center no-repeat 
+        background-size 80%
+        margin-top 100px
+        span
+            color #7435a2
+            margin 20px 0 0 0
+    .glob_6
+        background url("../img/glob-6.png") center center no-repeat 
+        background-size 80%
+        margin-top 0
+        span
+            color #bd3fa4
+            margin 10px 0 0 0
+.dec_block
+    width 100%
+    margin 50px 10px 
+    padding 100px 0
+    border-radius 10px
+    background url("../img/bg-block.jpg") center center no-repeat 
+    background-size cover
+    .row
+        margin 50px 0 0 
+        div
+            padding 20px 50px
+            text-align left
+    h2
+        color #fff
+        margin 0 0 20px
+    p
+        color #fff
+        margin 10px  0
+    img
+        width 100%
+        border-radius 10px
+        margin 0 0 40px
+        display block
+    h5
+        color #fff
+        font-size 16px
+        margin 20px 0 0
+.banner_home_8
+    margin 50px 0
+    p
+        line-height 30px
+.banner_home_9
+    padding 100px 0 0
+    background #ebf0f5
+    h2
+        color c-azul
+        margin 0 0 40px
+    p
+        margin 0 0 40px
+        strong
+            display block
+    .pricing
+        h2
+            color #fff
+.banner_home_10
+    .dec_block
+        margin 0
+        border-radius 0
+        img
+            border-radius 0px
+    a
+        color c-azul
+        background #fff
+        &:hover
+            color c-azul
+            background #fff
+.banner_home_11
+    padding 100px
+    video
+        width 100%
+        height 290px
+        box-shadow 0px 0px 12px 3px rgba(0,0,0,0.17)
+        border-radius 10px
+    h2
+        color c-azul
+        position relative
+    a
+        color c-azul
+        font-weight bold
+        margin 20px 0 0
+        display block
+    .row
+        margin 100px 0
+        h2
+            color #000
+            font-size 80px
+            margin 80px 0 0 20px
+            &:before
+                content ""
+                position absolute
+                width 150px
+                height 150px
+                border 8px solid #3b4799
+                border-radius 10px
+                top -34px
+                left -22px
+                z-index 1
+        h6
+            margin 0 0 0 180px
+.banner_home_12
+    background #f1f6fa
+    h2
+        text-align center
+        color #fff
+        background c-azul
+        padding 100px 0 200px
+        margin 0 0 -150px
+    .conten_video
+        h6
+            padding 20px
+            font-weight bold
+    .container
+        h2
+            padding 0
+            color c-azul
+            margin 100px 0
+            background none
+.banner_home_13
+    background #f1f6fa
+    padding 100px 0
+    h2
+        text-align center
+        color c-azul
+    img
+        width  100%
+        
+    span
+        text-align center
+        background #e2e2e2
+        padding 10px
+        color #333
+        display block
+        font-size 12px
+        margin 0 0 10px
+    a
+        background #fff
+        text-align center
+        color #333
+        text-decoration none
+        display block
+        padding 60px 0
+.banner_home_14
+    background url("../img/bg-banner-bottom.jpg") center center no-repeat
+    background-size cover 
+    padding 100px 0
+    h2
+        color c-azul
+        margin 0 0 40px
+//--ESTILOS FOOTER--//
+footer
+    .footer_top
+        background #282957
+        padding 50px 0
+        color #fff
+        text-align center
+        text-transform uppercase
+        input
+            border none
+            padding 15px 60px 15px 30px
+            width 70%
+            border-radius 30px
+            margin 20px 0 0
+        .social
+            margin 30px 0 0
+            padding 0
+            list-style none
+            li
+                display inline-block
+                padding 0 10px
+                vertical-align top
+                margin 0 0 10px
+                a
+                    img
+                        width 50px
+
+    .newsletter
+        position relative
+        button
+            position absolute
+            border none
+            background none
+            top 50%
+            right 18%
+            color #3b4799
+
+    .footer_cont
+        background #b4b5d4
+        padding 50px 0
+        .col-line
+            border-right 1px solid #a5a6c2
+            padding-right 20px
+            margin-right 20px
+            width calc(33.3333% - 20px)
+        h5
+            color #3b4799
+        h4
+            color #3b4799
+        h6
+            color #5c5d6e
+            margin 40px 0 0
+            font-weight normal
+        ul
+            margin 30px 0 0
+            padding-left 0
+            list-style none
+            color #5c5d6e
+            font-size 16px
+            li
+                margin 0 0 5px
+
+    .logo_footer
+        width 220px
+        margin 0 0 40px
+
+    .contact_footer
+        margin 40px 0 0
+        input
+            width 80%
+            padding 8px 10px
+            border-radius 5px
+            border none
+            margin 0 0 10px
+        input[type="button"]
+            background #3b4799
+            width auto
+            padding 8px 15px
+            border-radius 2px
+            border none
+            margin 0 0 10px
+            display block
+            color #fff
+            font-weight bold
+            text-transform uppercase
+        textarea
+            width 80%
+            padding 8px 10px
+            border-radius 5px
+            border none
+            margin 0 0 10px
+
+    .list_top
+        display inline-block
+        border-bottom 1px solid #a5a6c2
+        padding-bottom 30px
+
+    .footer_bottom
+        background #dde6ee
+        padding 40px 50px
+        color #9ca1a6
+        font-size 12px
+        p
+            margin 0
+        div
+            padding 0 80px
+        .col-line
+            border-right 1px solid #a5a6c2
+//Banner Precios//
+.pricing
+    .row
+        .col-xl-4
+            padding 0
+    h2
+        text-align center
+        font-weight 800
+        font-size 25px
+    h4
+        text-align center
+        font-size 17px
+        font-weight 800
+    a
+        display block
+        background #3b4799
+        padding 15px 0
+        text-align center
+        text-decoration none
+        font-weight bold
+        color #fff
+        margin 40px 0 0
+        span
+            display block
+            font-weight normal
+
+.header_pricing
+    background linear-gradient(
+    0deg,
+    rgba(47, 47, 127, 1) 0%,
+    rgba(52, 57, 149, 1) 100%
+  )
+    color #fff
+    padding 40px 60px
+    h2
+        font-weight 800
+        font-size 25px
+        margin 0
+        text-align left !important
+    h3
+        font-weight 600
+        font-size 14px
+        color #36b7a6
+        margin 5px 0 0
+
+.subtitle_pricing
+    padding 0 40px 0 0
+    background-repeat no-repeat
+    background-position right top
+    background-size 40px
+
+.icon_header_1
+    background-image url("../img/diamond.png")
+
+.icon_header_2
+    background-image url("../img/stars.png")
+
+.icon_header_3
+    background-image url("../img/tooth.png")
+
+.cont_pricing
+    background #f0f0f0
+    padding 40px
+    ul
+        margin 30px 0
+        padding 0 0 0 18px
+        li
+            margin 0 0 10px
+            &.list-opa
+                opacity 0
+            ul
+                margin 10px 0
+                list-style none
+                padding 0 0 0 8px
+                li
+                    margin 0
+    h3
+        color #3c4799
+        font-size 20px
+    h6
+        text-align center
+    p
+        text-align center
+
+.cont_clear
+    background #e3e4e9
+
+.cash_pricing
+    width 250px
+    margin 0 auto 40px
+    position relative
+    .dec
+        width 200px
+        height 8px
+        background #3c4799
+        position absolute
+        transform rotate(45deg)
+        left -40px
+        top 100px
+        z-index 2
+    h6
+        color #3c4799
+        font-size 14px
+        opacity 0.5
+    .price_promo
+        background linear-gradient(
+    0deg,
+    rgba(47, 47, 127, 1) 0%,
+    rgba(52, 57, 149, 1) 100%
+  )
+        text-align center
+        font-weight bold
+        color #fff
+        font-size 25px
+        padding 31px 10px !important
+        height 140px
+        border-radius 0 5px 5px 0
+        position relative
+        &:before
+            content "limited time offer"
+            position absolute
+            font-size 12px
+            font-weight normal
+            background #fff
+            padding 2px 10px
+            bottom -24px
+            left 0
+            color #3f4697
+    .row
+        .col-xl-6
+            padding 0
+    .price_normal
+        background #fff
+        opacity 0.5
+        padding 15px
+        span
+            background #ccc
+            padding 2px 5px
+            color #3c4799
+            display block
+            font-size 16px
+            margin 2px 0
+@media (max-width: 1600px)
+    header
+        .ton_bottom
+            .toogle_menu
+                display inline-block
+        nav
+            display none
+        .col-xl-10
+            text-align right
+@media (max-width: 1200px)
+    .newsletter
+        margin 0 0 40px
+    .footer_cont
+        padding 50px 40px
+        .row
+            div
+                margin 20px 0
+        .col-line
+            border-right none
+            padding 0 10px
+            margin 0
+            width 100%
+    .footer_bottom
+        padding 40px 50px
+        .col-line
+            border-right none
+        div
+            padding 0
+        p
+            margin 0 0 20px
+@media (max-width: 1200px)   
+    .banner_home_11
+        .row
+            h2
+                margin 0
+                font-size 40px
+                margin 50px 0 0 
+                &:before
+                    display none
+            h6
+                margin 10px
+    .banner_home_7 
+        .glob
+            margin 0 auto 20px
+            display block
+            background-size 100%
+    .contact_footer input, .contact_footer textarea
+        width 100%
+    .banner_home_3
+        .col-xl-3
+            margin 0 0 20px
+        a
+            text-align center
+    .banner_home_5
+        .bn-1
+            img
+                width 100%
+        .bn-2
+            padding 50px
+    .banner_home_6 
+        padding 100px 20px 50px
+    .dec_block
+        margin 50px 0
+    .footer_cont 
+        .row 
+            div
+                width 100% !important
+                border none
+                input, textarea 
+                    width 100%
+    .footer_bottom
+        padding 40px 0
+        text-align center
+        .row
+            padding 0
+            div
+                border none
+                p
+                    margin 0 0 10px
+@media (max-width: 991px)
+    header
+        .ton_header
+            padding 20px
+            text-align center !important
+            .row
+                div
+                    margin 0 0 5px
+            .col-xl-6
+                display none
+            .text-right
+                text-align center
+        .ton_bottom
+            padding 20px
+@media (max-width: 700px)
+    .slider
+        .cont_slider
+            width 90%
+@media (max-width: 600px)
+    header
+        .ton_bottom
+            #logo
+                max-width 120px
+            button
+                margin 2px 0 0 20px
+    .banner
+        .container
+            width 90%
+            
