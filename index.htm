@@ -15,6 +15,26 @@
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
 	</head>
 	<style>
+	
+		@font-face {
+			font-family: Montserrat-Bold;
+			src: url(font/Montserrat-Bold.otf);
+		}
+		body{
+			font-family: Montserrat-Bold !important;
+		}
+		@font-face {
+			font-family: Montserrat-Regular;
+			src: url(font/Montserrat-Regular.otf);
+		}
+		.monseregular{
+			font-family: "Montserrat-Regular.otf",sans-serif;
+		}
+		.fontfaceregular {
+			font-family: Montserrat-Regular;
+			src: url(font/Montserrat-Regular.otf);
+		}
+	
 		html { 
 			font-size: 1rem; 
 		}
@@ -48,6 +68,9 @@
 		.backgroundf2f4ff{
 			background-color:#f2f4ff;
 		}
+		.border-left-primary {
+			border-left: .25rem solid #3B4799!important;
+		}
 		.colorempire{
 			color:#3B4799;
 		}
@@ -61,14 +84,23 @@
 			background-size: cover !important; /* !important es opcional para forzarlo */
 			background-repeat:no-repeat !important;
 		}
+		.fontsize9{
+			font-size:9px;
+		}
 		.fontsize10{
 			font-size:10px;
 		}
 		.fontsize12{
 			font-size:12px;
 		}
+		.fontsize13{
+			font-size:13px;
+		}
 		.fontsize14{
 			font-size:14px;
+		}
+		.fontsize30{
+			font-size:30px;
 		}
 	</style>
 	<body>
@@ -158,12 +190,12 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img src="img/transparente.png" class="img-fluid" alt="home">
-					<div class="carousel-caption">
+					<div class="carousel-caption" style="bottom: 100px !important;">
 						<div class="col-12 col-md-12 col-md-6 offset-md-6 text-left">
 							<a href="#" class="text-white">
 								Home / academy of aesthetics
 							</a>
-							<h1 class="text-white">
+							<h1 class="text-white fontsize30">
 								AESTHETIC TRAINING WORKSHOPS
 							</h1>
 							<p class="mb-3 text-responsive">
@@ -199,67 +231,67 @@
 						</div>	
 					</strong>
 					<div class="row">
-						<div class="col-12 col-sm-12 col-md-4 text-center border border-muted border-bottom-0 border-left-0 p-3">
+						<div class="col-12 col-sm-12 col-md-4 text-center border border-muted border-bottom-0 border-left-0 p-3 mt-3">
 							<div class="row">
-								<div class="col-12 col-sm-12 col-md-3 text-center mt-4">
-									<img src="img/icono1.png" class="img-fluid" alt="" style="width: 60%"/>
+								<div class="col-12 col-sm-12 col-md-3 mt-4 text-right">
+									<img src="img/icono1.png" class="img-fluid" alt="" style="width: 25px"/>
 								</div>
 								<div class="col-12 col-sm-12 col-md-9 fontsize12 mt-4">
-									<p class="text-left">
-										<span class="text-muted">INCLUDED FREE IN OUR</span>
+									<p class="">
+										<span class="text-muted fontsize10">INCLUDED FREE IN OUR</span>
 										<br />
 										<strong>Platinum Membership</strong>
 									</p>
-									<p class="text-left">
+									<p class="">
 										<span class="text-muted">26 Workshops FREE,</span>
 										<br />
 										<strong>Sale $3,799 (reg $4,999)</strong>
 									</p>
-									<p class="text-left">
+									<p class="">
 										<u><strong><a href="#" class="fontsize10 text-info">LEARN MORE</a></strong></u>
 									</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-12 col-sm-12 col-md-4 text-center border border-muted border-bottom-0 p-3">
+						<div class="col-12 col-sm-12 col-md-4 text-center border border-muted border-bottom-0 p-3 mt-3">
 							<div class="row">
-								<div class="col-12 col-sm-12 col-md-3 text-center mt-4">
-									<img src="img/icono2.png" class="img-fluid" alt="" style="width: 60%"/>
+								<div class="col-12 col-sm-12 col-md-3 mt-4 text-right">
+									<img src="img/icono2.png" class="img-fluid" alt="" style="width: 25px"/>
 								</div>
 								<div class="col-12 col-sm-12 col-md-9 fontsize12 mt-4">
-									<p class="text-left">
-										<span class="text-muted">INCLUDED FREE IN OUR</span>
+									<p class="">
+										<span class="text-muted fontsize10">INCLUDED FREE IN OUR</span>
 										<br />
 										<strong>Diamond Membership</strong>
 									</p>
-									<p class="text-left">
+									<p class="">
 										<span class="text-muted">36 Workshops FREE,</span>
 										<br />
 										<strong>Sale $3,799 (reg $4,999)</strong>
 									</p>
-									<p class="text-left">
+									<p class="">
 										<u><strong><a href="#" class="fontsize10 text-info">LEARN MORE</a></strong></u>
 									</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-12 col-sm-12 col-md-4 text-center border border-muted border-bottom-0 p-3 border-right-0">
+						<div class="col-12 col-sm-12 col-md-4 text-center border border-muted border-bottom-0 p-3 border-right-0 mt-3">
 							<div class="row">
-								<div class="col-12 col-sm-12 col-md-3 text-center mt-4">
-									<img src="img/icono3.png" class="img-fluid" alt="" style="width: 60%"/>
+								<div class="col-12 col-sm-12 col-md-3 mt-4 text-right">
+									<img src="img/icono3.png" class="img-fluid" alt="" style="width: 25px"/>
 								</div>
 								<div class="col-12 col-sm-12 col-md-9 fontsize12 mt-4">
-									<p class="text-left">
-										<span class="text-muted">INCLUDED FREE IN OUR</span>
+									<p class="">
+										<span class="text-muted fontsize10">INCLUDED FREE IN OUR</span>
 										<br />
 										<strong>Dental <span style="font-family: initial;">‘</span>D<span style="font-family: initial;">’</span> Membership</strong>
 									</p>
-									<p class="text-left">
+									<p class="">
 										<span class="text-muted">25 Workshops FREE,</span>
 										<br />
 										<strong>Sale $3,799 (reg $4,999)</strong>
 									</p>
-									<p class="text-left">
+									<p class="">
 										<u><strong><a href="#" class="fontsize10 text-info">LEARN MORE</a></strong></u>
 									</p>
 								</div>
@@ -268,25 +300,25 @@
 					</div>
 				</div>
 				<div class="col-12 col-sm-12 col-md-5 text-center border border-muted border-bottom-0 p-3">
-					<strong class="fontsize14 text-muted" style="line-height: 19px;">
+					<strong class="fontsize14 text-muted" style="line-height: 27px;">
 						This Activity In Jointly Provided By Medical Education Recourses And 
 						<br />
 						Empire Medical Training
 					</strong>
 					<div class="row">
-						<div class="col-12 col-sm-12 col-md-4 text-center border border-muted border-bottom-0 border-left-0">
+						<div class="col-12 col-sm-12 col-md-4 text-center border border-muted border-bottom-0 border-left-0 p-3">
 							<p class="text-center">
-								<h1 style="line-height:1.6;">
+								<h1>
 									8.1
 								</h1>
-								<hr>
+								<hr style="margin-top: -0.5rem !important;">
 							</p>
-							<p class="text-center">
+							<p class="text-center fontsize10">
 								AMA PRA Category
 								<br />
 								1 Credits&trade;
 							</p>
-							<p class="text-center">
+							<p class="text-center" style="margin-top: -2px;">
 								<u><strong><a href="#" class="fontsize10 text-info">LEARN MORE</a></strong></u>
 							</p>
 						</div>
@@ -295,10 +327,13 @@
 								<h1>
 									FREE
 								</h1>
-								<hr>
+								<hr style="margin-top: -0.5rem !important;">
+							</p>
+							<p class="text-center fontsize10">
+								With <br />Membership
 							</p>
 							<p class="text-center">
-								With Membership
+								&nbsp;
 							</p>
 						</div>
 						<div class="col-12 col-sm-12 col-md-4 text-center border border-muted border-bottom-0 border-right-0 p-3">
@@ -306,10 +341,13 @@
 								<h1>
 									1
 								</h1>
-								<hr>
+								<hr style="margin-top: -0.5rem !important;">
+							</p>
+							<p class="text-center fontsize10">
+								Day Course
 							</p>
 							<p class="text-center">
-								Day Course
+								&nbsp;
 							</p>
 						</div>
 					</div>
@@ -317,16 +355,539 @@
 			</div>
 		</div>
 		<div class="container-fluid backgroundf2f4ff">
-			<div class="row">
-				<div class="col-12 col-sm-12 col-md-4 text-center">
-					<div class="row">
-						<div class="col-12 col-sm-12 col-md-12">
+			<div class="row p-4">
+				<div class="col-12 col-sm-12 col-md-5 p-4 rounded">
+					<div class="row bg-white rounded">
+						<div class="col-12 col-sm-12 col-md-12 mt-4 text-center">
+							<h4>
+								<p class="p-2 backgroundempire rounded">
+									<b>Aesthetics</b> <span class="monseregular">Workshops</span>
+								</p>
+							</h4>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 p-2">
+							<strong class="colorempire fontsize14 ml-4">FACIAL INJECTABLES</strong>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+                                <div class="card-body" style="padding: 0.5rem !important;">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+                                            Complete Botox Training - <span class="text-primary">(Level I)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+                                <div class="card-body" style="padding: 0.5rem !important;">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+                                            Hands-On Dermal Filler Training  - <span class="text-primary">(Level I)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+                                <div class="card-body" style="padding: 0.5rem !important;">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+                                            Botox / Dermal Filler 1-Day Training  - <span class="text-primary">(Level I)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+                                <div class="card-body" style="padding: 0.5rem !important;">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+                                            Botox and Dermal Filler Training Centers of Excellence-COE)  - <span class="text-primary">(Level I)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+                                <div class="card-body" style="padding: 0.5rem !important;">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+                                            Advanced Botox / Dermal Filler Training  - <span class="text-primary">(Level II)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+                                <div class="card-body" style="padding: 0.5rem !important;">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+                                            <span class="text-danger">NEW!</span> Meet the Experts - Aesthetics Consortium  - <span class="text-primary">(Level II)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+                                <div class="card-body" style="padding: 0.5rem !important;">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+                                            1-Day Master Injector Series Practicum  - <span class="text-primary">(Level III)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+                                <div class="card-body" style="padding: 0.5rem !important;">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+                                            <span class="text-danger">NEW!</span> Advanced Facial Anatomy Cadaver Workshop for Aesthetics (Recommended Prerequisite to Facial Aesthetic Courses*)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 p-2">
+							<strong class="colorempire fontsize14 ml-4">LASER & OTHER AESTHETICS</strong>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+                                <div class="card-body" style="padding: 0.5rem !important;">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+                                            Complete Facial Aesthetic
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+                                <div class="card-body" style="padding: 0.5rem !important;">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+                                            Cosmetic Laser Courses & Certification
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+                                <div class="card-body" style="padding: 0.5rem !important;">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+                                            Advanced Cosmetic Laser - Hands-On
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+                                <div class="card-body" style="padding: 0.5rem !important;">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+                                            Dermatology Procedures for the Aesthetic and Medical Practice
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+                                <div class="card-body" style="padding: 0.5rem !important;">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+                                            Advanced Medical Aesthetics
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+                                <div class="card-body" style="padding: 0.5rem !important;">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+                                            Acne Therapies for an Aesthetic Practice
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+                                <div class="card-body" style="padding: 0.5rem !important;">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+                                            Your Aesthetic Practice - Turnkey for Success
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+				
+						<div class="col-12 col-sm-12 col-md-12 p-2">
+							<strong class="colorempire fontsize14 ml-4">CURSOS EN ESPAÑOL</strong>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											Toxina Botulinica
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											Rellenos Dermicos
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											Toxina Botulinica y Rellenos en 1 dia
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											Curso Avanzado de Toxina Botulinica y Rellenos Dermicos
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											Master en Inyectables
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 p-2">
+							<strong class="colorempire fontsize14 ml-4">PDO THREADS</strong>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											PDO Thread Lift Training <span class="text-primary">(Level I)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											PDO Barbed Surgical Thread Lift Training <span class="text-primary">(Level II)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											<span class="text-danger">NEW!</span> - Combination Therapies using PDO Threads and Dermal Fillers, PRP, Cosmetic Laser, and other*
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											<span class="text-danger">NEW!</span> - PDO Threads and PRP for Hair Restoration*
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 p-2">
+							<strong class="colorempire fontsize14 ml-4">OTHER AESTHETIC INJECTABLES</strong>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											PRP Training for Aesthetics
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											Sclerotherapy for Physicians & Nurses
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											Mesotherapy Training
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											<span class="text-danger">NEW!</span> - Kybella Certification & Injection Training
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 p-2">
+							<strong class="colorempire fontsize14 ml-4">PRIVATE AESTHETIC TRAINING</strong>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											In-Office Preceptorship
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											Empire Shadow Preceptopship
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 p-2">
+							<strong class="colorempire fontsize14 ml-4">WEBINARS & SPECIAL EVENTS</strong>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											Empire-Aesthetics-Meeting™
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											<span class="text-danger">NEW!</span> - Meet the Experts - Aesthetic Consortium - <span class="text-primary">(Level II)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											Empire Aesthetic Station™
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mb-1">
+							<div class="card border-left-primary shadow h-100">
+								<div class="card-body" style="padding: 0.5rem !important;">
+									<div class="row no-gutters align-items-center">
+										<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular">
+											<strong>*New Workshops Offered for 2020</strong>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-8 text-center">
+				<div class="col-12 col-sm-12 col-md-7 p-4 rounded">
+					<div class="row bg-white rounded">
+						<div class="col-12 col-sm-12 col-md-12 mt-1 text-center">
+							<h4 class="p-2 monseregular" style="letter-spacing: 3px;">
+								<strong>
+									Practical Medical CME Training for <b class="colorempire">Aesthetics.</b>
+								</strong>
+							</h4>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 text-center">
+							<img src="img/img_banner_5.jpg" class="img-fluid"/>
+							<div class="backgroundempire monseregular fontsize10" style="letter-spacing:2">Aesthetic Meeting</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mt-4 monseregular fontsize12">
+							<p>
+								<b>The most complete Botox Training</b> (Botulinum Toxin), Dermal Filler Training, Medical Aesthetic Training for Physicians (Doctors)- MD/DO, Nurses-RN, NP, Physician Assistants- PA, Dentists- DDS, DMD
+							</p>
+							<p>
+								Empire Medical Training is the largest, most widely recognized leader in Botox and Aesthetics training for the past 23 years with over 150,000 successful graduates. Empire has been training physicians, nurses, and dentists in Botox, and other aesthetic procedures since 1998.  
+							</p>
+							<p>
+								Empire offers over 600 training seminars annually, scheduled every weekend in most cities throughout the USA and North America.
+							</p>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mt-4 monseregular text-center">
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item ml-5" src="https://www.youtube.com/embed/xBqlSprzp5c?autoplay=1" frameborder="0" allowfullscreen ></iframe>
+							</div>
+							<div class="backgroundempire monseregular fontsize10 ml-5" style="letter-spacing:2">Dermal Fillers Training Courses | video Pearls</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mt-4 monseregular fontsize12">
+							<p>
+								Empire is the only seminar education company in the United States who utilizes Ipads and tablets, as effective learning aids for our students during the training. This method not only makes the learning experience more enjoyable, but also simplifies the lecture phase since students can ask questions and interact directly with the instructors using the tablets provided. Instructors can even repeat a topic, if necessary based on input received from the computers indicating the students’ levels of comprehension.
+							</p>
+							<p>
+								The only effective way to truly learn a procedure is with live, <b>hands-on training</b>. Online training is not sufficient for certification in these procedures. Empire provides supplementary online training for aesthetics as an added benefit for its attendees free of charge but only providescertification for completion of the live, hands-on training courses. The Botox Training and other Aesthetic training programs start with intensive lecture in the morning, followed by hands-on training in the afternoon where participants inject actual products such as Botox, Juvederm, Restylane, and many others on live patients.
+							</p>
+							<p>
+								Empire Medical Training remains the #1 source for Botox and Medical Aesthetics training because of our university-style curriculum with <b>over 35 topics offered</b>, our cost effective membership model that allows members to attend all programs for free, and the highest quality education and training backed by the only industry-recognized guarantee, the Empire-Wowv-Refund-Policy™ where you receive 100% of your money returned PLUS reimbursement on your travel expenses if you do not believe the training was helpful to you. <b>Call today for more information and to register for our next event! Call 866-366-1576.</b>
+							</p>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mt-2 monseregular">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-md-4 offset-md-2">
+									<img src="img/img_banner_6.jpg" class="img-fluid"/>
+									<div class="backgroundempire monseregular fontsize10 text-center">
+										One On One Botulinum Toxin Training with <br />
+										World Class Physician Instructors!
+									</div>
+								</div>
+								<div class="col-12 col-sm-12 col-md-4">
+									<img src="img/img_banner_6_1.jpg" class="img-fluid"/>
+									<div class="backgroundempire monseregular fontsize10 text-center">
+										<div style="line-height:3">Hands On Training with Volunteer Patients</div>
+									</div>
+								</div>
+								<div class="col-12 col-sm-12 col-md-2">
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 mt-4 monseregular mb-5">
+							<div class="row">
+								<div class="col-12 col-sm-12 col-md-4">
+									<img src="img/img_banner_7.jpg" class="img-fluid"/>
+									<div class="backgroundempire monseregular fontsize9 p-2">
+										<p>
+											<strong>OFFICE PRECEPTORSHIP</strong>
+										</p>
+										<p>
+											Hands-on training with renowned Physicians specialists at your office customized programs based on your needs
+										</p>
+										<i><strong><br />*Customized Programs- tuition varies </strong></i>
+									</div>
+								</div>
+								<div class="col-12 col-sm-12 col-md-4">
+									<img src="img/img_banner_7_1.jpg" class="img-fluid"/>
+									<div class="backgroundempire monseregular fontsize9 p-2">
+										<p>
+											<strong>SHADOW PRECEPTORSHIP</strong>
+										</p>
+										<p>
+											Training with celebrity physician at their office, observation and demonstration, learn valuable business and clinical pearls from experts. 
+										</p>
+										<i><strong>*Customized Programs- tuition varies </strong></i>
+									</div>
+								</div>
+								<div class="col-12 col-sm-12 col-md-4">
+									<img src="img/img_banner_7_2.jpg" class="img-fluid"/>
+									<div class="backgroundempire monseregular fontsize9 p-2">
+										<p>
+											<strong>ON DEMAND GROUP TRAINING</strong>
+										</p>
+										<p>
+											Customized programs to meet your needs. Regular Membership fees and Individual course tuition applies provided there is a minimum of 7 participants.  
+										</p>
+										<i><strong>*Customized Programs- tuition varies </strong></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" style="background-color:#F2F4FF">
+			<div class="row p-3">
+				<div class="col-12 col-sm-12 col-md-4 offset-md-2 text-center">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item ml-5" src="https://www.youtube.com/embed/0PZCbl7KInU?autoplay=1" frameborder="0" allowfullscreen ></iframe>
+					</div>
+					<div class="backgroundempire monseregular fontsize10 ml-5" style="letter-spacing:2">Empire Virtual Training™ - Presentation</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4">
 					<div class="row">
-						<div class="col-12 col-sm-12 col-md-12">
+						<div class="col-12 col-sm-12 col-md-12 mt-4">
+							<h4><b class="colorempire">Empire-Virtual-Training™ 2021</b></h4>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 fontsize14 my-2">
+							<b>Learn from the comfort of your home or office!</b>
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 fontsize14 monseregular my-3 text-muted">
+							Empire Medical Training has expanded its ability to provide many flexible options for Empire members and other practitioners interested in advancing their skills and training for certification in Aesthetic Medicine, Anti-Aging, Dermatology, Pain Management, and other subspecialties.
+						</div>
+						<div class="col-12 col-sm-12 col-md-12 my-3">
+							<button class="btn btn-sm backgroundempire fontsize9 monseregular" style="border-radius: 1.2rem !important;">READ MORE</button>
 						</div>
 					</div>
 				</div>
