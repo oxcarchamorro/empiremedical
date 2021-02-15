@@ -1,13 +1,15 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 		<title>Aesthetic Training Workshops | Empire Medical Training</title>
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-replace-text/1.1.0/jquery-replace-text-min.js"></script>
 	</head>
 	<style>
-	
 		@font-face {
 			font-family: Montserrat-Bold;
 			src: url(font/Montserrat-Bold.otf);
@@ -92,6 +94,15 @@
 		}
 		.fontsize30{
 			font-size:30px;
+		}
+		.fontsize29{
+			font-size: 29px;
+		}
+		.tophomemax{
+			bottom: 75px !important;
+		}
+		.tophomemin{
+			bottom: -25px !important;
 		}
 	</style>
 	<body>
@@ -181,12 +192,12 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img src="img/transparente.png" class="img-fluid" alt="home">
-					<div class="carousel-caption" style="bottom: 75px !important;" id="textohome">
+					<div class="carousel-caption tophomemax" id="textohome">
 						<div class="col-12 col-md-12 col-md-6 offset-md-6 text-left">
 							<a href="#" class="text-white monseregular">
 								HOME / academy of aesthetics
 							</a>
-							<h1 class="text-white monseregular" style="letter-spacing: 2px; font-size: 29px;">
+							<h1 class="text-white monseregular fontsize29" id="titlehome" style="letter-spacing: 2px;">
 								AESTHETIC TRAINING WORKSHOPS
 							</h1>
 							<p class="mb-3 text-responsive monseregular">
@@ -905,11 +916,13 @@
 	</body>
 	<footer>
 		<script type="text/javascript">
-			$(document).ready(function(){
-				if ($(window).width() < 769) {
-					$("#textohome").css("top", "-780px;");
+			
+				if ($(window).width() < 1011) {
+					$("#textohome").removeClass("tophomemax");
+					$("#titlehome").removeClass("fontsize29");
+					$("#textohome").addClass("tophomemin");
 				}
-			});
+			
 		</script>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
